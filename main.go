@@ -17,9 +17,10 @@ package main
 import (
 	"net/http"
 	"os"
-	"internal/environment"
-	"internal/handlers"
-	"internal/router"
+
+	"./internal/environment"
+	"./internal/handlers"
+	"./internal/router"
 )
 
 func main() {

@@ -17,10 +17,9 @@ package main
 import (
 	"net/http"
 	"os"
-
-	"github.com/thousandeyes/shoelaces/internal/environment"
-	"github.com/thousandeyes/shoelaces/internal/handlers"
-	"github.com/thousandeyes/shoelaces/internal/router"
+	"internal/environment"
+	"internal/handlers"
+	"internal/router"
 )
 
 func main() {

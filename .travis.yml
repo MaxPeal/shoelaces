@@ -4,8 +4,14 @@ version: ~> 1.0
 
 language: go
 
-go_import_path: github.com/thousandeyes/shoelaces/internal
+go_import_path: 
+  - github.com/thousandeyes/shoelaces/internal/environment
+  - github.com/thousandeyes/shoelaces/internal/handlers
+  - github.com/thousandeyes/shoelaces/internal/router
 
+#before_install:
+#  - go get -v golang.org/x/lint/golint
+  
 go:
 - 1.x
 - "1.10"
